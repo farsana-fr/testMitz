@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+.bg-purple {
+  background-color: rgb(176, 123, 226);
+}
+.tabs {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 10px;
+}
+.tab {
+  display: flex;
+  flex-direction: column;
+}
